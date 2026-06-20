@@ -14,14 +14,14 @@ export default function Footer() {
   return (
     <footer className="border-t border-border bg-card/20 py-8 relative">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <a href="#home" className="flex items-center gap-2 group">
-          <div className="h-7 w-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-105 group-hover:bg-primary/20 transition-all duration-300">
+        <div className="flex items-center gap-2">
+          <div className="h-7 w-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center">
             <Code2 className="h-4 w-4 text-primary" />
           </div>
-          <span className="font-display font-bold text-sm tracking-tight bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent group-hover:text-primary transition-colors duration-300">
-            Muzahir<span className="text-primary">.dev</span>
+          <span className="font-display font-bold text-sm tracking-tight text-foreground">
+            Muzahir.dev
           </span>
-        </a>
+        </div>
         
         <p className="text-xs text-muted-foreground text-center font-medium">
           Made with ❤️ Muzahir Ali

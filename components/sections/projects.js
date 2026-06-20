@@ -21,7 +21,7 @@ const projectsData = [
     category: "Full Stack",
     techs: ["React", "CSS Modules", "ChartJS", "Vite"],
     liveLink: "https://github.com/muzzupasha",
-    githubLink: "https://github.com/muzzupasha",
+    githubLink: "https://github.com/muzzupasha/emi-calculator",
     image: "/emi_calculator.png",
   },
   {
@@ -39,7 +39,7 @@ const projectsData = [
     category: "Full Stack",
     techs: ["Next.js 15", "Supabase", "Firecrawl", "Tailwind CSS"],
     liveLink: "https://deal-crack.vercel.app",
-    githubLink: "https://github.com/muzzupasha",
+    githubLink: "https://github.com/muzzupasha/Deal-drop",
     image: "/deal_drop.png",
   },
   {
@@ -48,7 +48,7 @@ const projectsData = [
     category: "AI Projects",
     techs: ["Next.js", "Clerk", "Replicate", "OpenAI", "MongoDB"],
     liveLink: "https://ai-creater.vercel.app",
-    githubLink: "https://github.com/muzzupasha",
+    githubLink: "https://github.com/muzzupasha/AI-Creater",
     image: "/ai_creator.png",
   },
   {
@@ -57,7 +57,7 @@ const projectsData = [
     category: "Full Stack",
     techs: ["Next.js 15", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveLink: "https://music-hub-g.netlify.app",
-    githubLink: "https://github.com/muzzupasha",
+    githubLink: "https://github.com/muzzupasha/Music-hub",
     image: "/music_hub.png",
   },
   {
@@ -66,7 +66,7 @@ const projectsData = [
     category: "Full Stack",
     techs: ["Next.js", "MongoDB", "Tailwind CSS", "NextAuth"],
     liveLink: "https://mystery-messages-3ws9.vercel.app",
-    githubLink: "https://github.com/muzzupasha",
+    githubLink: "https://github.com/muzzupasha/Mystery-Messages",
     image: "/mystery_message.png",
   },
 ];

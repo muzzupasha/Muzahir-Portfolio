@@ -60,6 +60,24 @@ export default function Navbar() {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
   };
 
+  const handleMobileClick = (e, href) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+    
+    // Update hash in URL bar without instant jump
+    window.history.pushState(null, null, href);
+    
+    // Delay scroll slightly to allow the drawer exit animation to begin,
+    // avoiding scroll aborts caused by layout changes during unmounting.
+    setTimeout(() => {
+      const id = href.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 150);
+  };
+
   return (
     <nav
       className={cn(
@@ -210,7 +228,7 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
+                    onClick={(e) => handleMobileClick(e, item.href)}
                     className={cn(
                       "text-sm font-semibold tracking-wider uppercase py-2 border-b border-border/40 flex items-center justify-between",
                       isActive ? "text-primary" : "text-muted-foreground"

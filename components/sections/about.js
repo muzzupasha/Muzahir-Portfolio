@@ -116,11 +116,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-sm text-foreground">Academic Focus</h4>
-<<<<<<< HEAD
                   <p className="text-xs text-muted-foreground">Final-Year BCA student specializing in Full Stack AI.</p>
-=======
-                  <p className="text-xs text-muted-foreground">Final-Year BCA student specialising in Full Stack AI.</p>
->>>>>>> fda6eb84996cddc90f191c97e676a6f4dd2f9597
                 </div>
               </div>
               <div className="flex gap-3">

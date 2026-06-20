@@ -120,6 +120,11 @@ body {
     linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
 }
 
+/* Ensure fixed header does not cover sections when scrolled into view */
+section {
+  scroll-margin-top: 80px;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

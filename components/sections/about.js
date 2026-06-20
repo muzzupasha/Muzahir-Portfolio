@@ -6,7 +6,7 @@ import { GraduationCap, Code2, Globe2, Compass } from "lucide-react";
 const stats = [
   { value: "15", label: "Projects Completed", suffix: "+" },
   { value: "2", label: "Years Coding Experience", suffix: "+" },
-  { value: "20", label: "Technologies & Tools Masterd", suffix: "+" },
+  { value: "20", label: "Technologies & Tools Mastered", suffix: "+" },
 ];
 
 const StatCounter = ({ value, label, suffix = "" }) => {
@@ -116,7 +116,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-sm text-foreground">Academic Focus</h4>
-                  <p className="text-xs text-muted-foreground">Final-Year BCA student specislizing in Full Stack AI.</p>
+                  <p className="text-xs text-muted-foreground">Final-Year BCA student specialising in Full Stack AI.</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -125,7 +125,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-sm text-foreground">Technical Background</h4>
-                  <p className="text-xs text-muted-foreground">Handson experience building and deploying scalable web applications using the MERN Stack.</p>
+                  <p className="text-xs text-muted-foreground">Hands-on experience building and deploying scalable web applications using the MERN Stack.</p>
                 </div>
               </div>
             </div>
